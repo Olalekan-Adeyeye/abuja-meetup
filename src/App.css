@@ -60,3 +60,19 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.drop-down {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.about-wrapper:hover .drop-down {
+  transition-property: opacity;
+  transition-duration: 500ms;
+  visibility: visible;
+  opacity: 1;
+}
+
+.speaker:hover .name {
+  /* background-color: #808080; */
+}

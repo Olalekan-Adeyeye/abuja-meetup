@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        SFPRODISPLAYREGULAR: ["SFPRODISPLAYREGULAR"],
+      },
       backgroundColor: {
         "light-gray": "#1B191A",
       },

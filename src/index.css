@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "SFPRODISPLAYREGULAR";
+    src: url("../public/fonts/SFPRODISPLAYREGULAR.OTF");
+  }
+}

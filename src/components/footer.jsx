@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-white mt-16 p-8 md:p-8 lg:p-16">
-      <div className="w-[90vw] max-w-[1440px]">
+      <div className="w-[90vw] max-w-[1440px] mx-auto">
         <h2 className="text-[25px]">Abuja Starters Meetup</h2>
         <div className="flex  flex-col md:flex-row md:justify-between md:items-center gap-8 md:gap-0 text-[18px]">
           <img
@@ -21,7 +21,7 @@ const Footer = () => {
               <Link>Schedule</Link>
             </li>
             <li>
-              <Link>Speaker</Link>
+              <Link to="#speaker">Speaker</Link>
             </li>
           </ul>
           <ul className="list-disc list-inside">
@@ -29,7 +29,7 @@ const Footer = () => {
               <Link>#ASM</Link>
             </li>
             <li>
-              <Link to="https://getdp.co/on9">Generate Dp</Link>
+              <Link to="https://getdp.co/abtm ">Generate Dp</Link>
             </li>
             <li>
               <Link>Speakers</Link>
@@ -41,7 +41,7 @@ const Footer = () => {
                 <img
                   src="/images/facebook-round-color-icon.svg"
                   alt=""
-                  className="w-[40px]"
+                  className="w-[25px]"
                 />
               </Link>
             </li>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <img
                   src="/images/x-social-media-black-icon.svg"
                   alt=""
-                  className="w-[40px]"
+                  className="w-[25px]"
                 />
               </Link>
             </li>
@@ -59,7 +59,7 @@ const Footer = () => {
                 <img
                   src="/images/linkedin-app-icon.svg"
                   alt=""
-                  className="w-[40px]"
+                  className="w-[25px]"
                 />
               </Link>
             </li>
@@ -68,7 +68,7 @@ const Footer = () => {
                 <img
                   src="/images/ig-instagram-icon.svg"
                   alt=""
-                  className="w-[40px]"
+                  className="w-[25px]"
                 />
               </Link>
             </li>
